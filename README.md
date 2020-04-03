@@ -1,7 +1,7 @@
 # Docker Commands
 
 ## docs
-* [docs.docker.com][www.docs.docker.com]
+* [https://docs.docker.com](https://docs.docker.com)
 
 ## basic commands
 * docker <command> <subcommand> (options)
@@ -38,3 +38,13 @@
 
 ## network concepts
 * docker container run -p --> change port
+* docker container port webhost  --> port check
+* docker network ls --> shows networks that have been created
+* docker network create --> spawns a new virtual network for you to attach containers to
+* docker network inspect --> inspect a network
+* docker network connect --> attach a network to a container
+* docker network disconnect --> detach a network from container
+
+* docker container ls
+* docker container run -d --name my_nginx --network new_nginx
+* docker container exec -it my_nginx ping new_nginx
