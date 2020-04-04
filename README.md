@@ -48,3 +48,28 @@
 * docker container ls
 * docker container run -d --name my_nginx --network new_nginx
 * docker container exec -it my_nginx ping new_nginx
+
+## Assignment
+* docker container run --rm -it centos:7 bash
+	* ym update curl
+	* docker container run --rm -it ubuntu:14:04 bash
+	* curl --version
+
+## Docker Hub
+* docker pull nginx:1.11  --> gets image from docker hub
+
+## Image Layers
+* union file system
+* docker image ls
+* docker history nginx:latest
+* docker image inspect nginx
+
+## Image Tagging
+* docker image tag --help
+* refer to image by repository, tag, image id
+* docker image tag nginx bretfisher/nginx  --> change repository name
+* docker login --> login to docker hub profile
+* docker logout
+
+## Building Images
+
