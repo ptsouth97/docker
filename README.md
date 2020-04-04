@@ -72,4 +72,10 @@
 * docker logout
 
 ## Building Images
-
+* FROM command
+* ENV environment variable
+* RUN executes shell commands
+* EXPOSE ports to expose on virtual network
+* CMD runs when container is launched
+* docker image build -t customnginx .
+* docker image prune  --> cleans up "dangling" images
